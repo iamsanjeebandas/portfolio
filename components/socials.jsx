@@ -10,7 +10,7 @@ const Socials = (props) => {
       {/* Get in Touch Button */}
       <a
         href={`mailto:${email}`}
-        className="mr-10 transition-all bg-primary-500 hover:bg-primary-300 text-surface-100 font-bold py-2 px-8 rounded flex flex-row justify-center items-center transform duration-500 hover:scale-x-105 sm:py-1 sm:px-4 sm:text-sm"
+        className="flex flex-row items-center justify-center px-4 py-1 text-sm font-bold text-surface-100 bg-primary-500 hover:bg-primary-300 rounded transition-all duration-500 transform hover:scale-x-105 sm:px-8 sm:py-2 sm:text-base sm:justify-start mr-4 sm:mr-10"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@ const Socials = (props) => {
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="currentColor"
-          className="w-6 h-6 sm:w-5 sm:h-5"
+          className="w-5 h-5 sm:w-6 sm:h-6"
         >
           <path
             strokeLinecap="round"
