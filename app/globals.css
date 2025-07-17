@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,10 +8,21 @@
     @apply scroll-smooth;
   }
   body {
-    @apply bg-surface-100 text-on-background tracking-wide
+    @apply bg-surface-100 text-on-background tracking-wide;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold font-body 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold font-body;
   }
+}
+
+img {
+  image-rendering: auto;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }

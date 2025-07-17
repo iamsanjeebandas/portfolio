@@ -1,130 +1,126 @@
 {
-    "general": {
-        "name": "Name Surname",
-        "headline": "Short headline about yourself",
-        "about": [
-            "Hey there! 👋",
-            "This should be a first short paragraph about yourself. Tell us something about yourself, your education or your career.",
-            "And why not adding a second paragraph? Then you can tell us more about your hobbies and your life. Some people will read it and be happy to get to know you a little better."
-        ],
-        "socials": {
-            "email": "example@mail.com",
-            "linkedin": "https://www.linkedin.com/",
-            "github": "https://github.com/"
-        }
+  "general": {
+    "profileImage": "/logos/portfolio_logo.png",
+    "name": "Sanjeeban Das.",
+    "headline": "💻 Full-Stack Developer | 🔧 Backend-Focused | 🤖 AI-Integrations",
+    "about": [
+      "Hey there! 👋",
+      "I'm a full-stack developer who loves building things that actually work for people. I studied Computer Science and Information Technology, and ever since, I’ve been diving deep into backend systems, frontend frameworks, and cloud technologies like AWS. These days, I spend most of my time writing clean, scalable code with tools like Java, Spring Boot, React, and Next.js.",
+      "Before this life of software, I spent almost three years as a freelance video editor and graphic designer. That creative background stuck with me—it helps me look at software not just as code, but as an experience. I enjoy learning, sharing stories from my journey, and exploring new ways to blend technology and design. If you're up for building something meaningful together, I’d love to hear from you."
+    ],
+    "socials": {
+      "email": "",
+      "linkedin": "https://www.linkedin.com/",
+      "github": "https://github.com/"
     },
-    "experiences": [
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "10/2023",
-            "endDate": "CURRENT",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2023",
-            "endDate": "09/2023",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2022",
-            "endDate": "12/2022",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2021",
-            "endDate": "12/2021",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
-        }
-    ],
-    "education": [
-        {
-            "subject": "University Subject",
-            "degree": "Master of Science",
-            "university": "University Name", 
-            "href": "",
-            "startDate": "2022", 
-            "endDate": "NOW", 
-            "description": "Short description of your degree."
-        },
-        {
-            "subject": "University Subject",
-            "degree": "Bachelor of Science",
-            "university": "University Name", 
-            "href": "",
-            "startDate": "2017", 
-            "endDate": "2020", 
-            "description": "Short description of your degree."
-        }
-    ],
-    "volunteering": [
-        {
-            "position": "Position Name",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "2022",
-            "endDate": "NOW",
-            "description": "Short description of your role at the event."
-        },
-        {
-            "position": "Position Name",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "2022",
-            "endDate": "NOW",
-            "description": "Short description of your role at the event."
-        },
-        {
-            "position": "Position Name",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "2022",
-            "endDate": "NOW",
-            "description": "Short description of your role at the event."
-        }
-    ],
-    "projects": [
-        {
-            "name": "two-column-portfolio",
-            "framework": "next.js",
-            "description": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
-            "href": "https://github.com/karlgrossmann/two-column-portfolio",
-            "stars": "0"
-        },
-       {
-            "name": "example-project",
-            "framework": "javascript",
-            "description": "Short description of your project.",
-            "href": "",
-            "stars": "2,712"
-       },
-       {
-        "name": "example-project-2",
-        "framework": "flutter",
-        "description": "Short description of your project.",
-        "href": "",
-        "stars": "1,999"
-        } 
+    "skillsList": [
+      {
+        "name": "JavaScript",
+        "logo": "/icons/icons8-javascript.svg",
+        "glow": "shadow-[#F7DF1E]"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "/icons/icons8-typescript.svg",
+        "glow": "shadow-[#3178C6]"
+      },
+      {
+        "name": "Java",
+        "logo": "/icons/icons8-java.svg",
+        "glow": "shadow-[#e76f00]"
+      },
+      {
+        "name": "React.js",
+        "logo": "/icons/icons8-react-48.png",
+        "glow": "shadow-[#61DAFB]"
+      },
+      {
+        "name": "Next.js",
+        "logo": "/icons/icons8-nextjs-48.png",
+        "glow": "shadow-[#ffffff]"
+      },
+      {
+        "name": "Tailwind",
+        "logo": "/icons/icons8-tailwind-css.svg",
+        "glow": "shadow-[#38BDF8]"
+      },
+      {
+        "name": "Spring Boot",
+        "logo": "/icons/icons8-spring-boot.svg",
+        "glow": "shadow-[#6DB33F]"
+      },
+      {
+        "name": "MongoDB",
+        "logo": "/icons/icons8-mongodb.svg",
+        "glow": "shadow-[#47A248]"
+      },
+      {
+        "name": "AWS",
+        "logo": "/icons/icons8-aws-48.png",
+        "glow": "shadow-[#FF9900]"
+      },
+      {
+        "name": "Langchain",
+        "logo": "/icons/langchain-seeklogo.svg",
+        "glow": "shadow-[#B3D944]"
+      },
+      {
+        "name": "PineconeDB",
+        "logo": "/icons/icons8-cone-48.png",
+        "glow": "shadow-[#9B59B6]"
+      },
+      {
+        "name": "NeonDB",
+        "logo": "/icons/NeonDB.png",
+        "glow": "shadow-[#00F5A0]"
+      }
     ]
+  },
+  "experiences": [
+    {
+      "title": "Junior Software Engineer",
+      "company": "EPAM SYSTEMS",
+      "href": "",
+      "startDate": "09/2024",
+      "endDate": "06/2025",
+      "description": "Built and deployed scalable Spring Boot microservices for a restaurant management platform in a backend team. Designed REST APIs, integrated MongoDB and AWS (EC2, S3, DynamoDB), and followed Agile (Scrum) methodologies. Enhanced development efficiency using EPAM DIALAI and contributed to CI/CD, testing (JUnit, Mockito), and clean, maintainable code.",
+      "logo": "/logos/vercel-white.png",
+      "skills": [
+        "Spring Boot",
+        "REST API Design",
+        "MongoDB",
+        "AWS (EC2, S3, DynamoDB)",
+        "CI/CD",
+        "JUnit",
+        "Mockito",
+        "Agile (Scrum)",
+        "Clean Code Practices"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "subject": "Computer Science and Information Technology",
+      "degree": "Bachelor in Technology",
+      "university": "SOA Institute of Technical Education and Research ",
+      "href": "",
+      "startDate": "2021",
+      "endDate": "2025",
+      "description": "Short description of your degree."
+    }
+  ],
+  "projects": [
+    {
+      "name": "IntelliDoc AI",
+      "framework": "Next.js",
+      "description": "An AI-powered PDF assistant using LangChain and OpenAI, with natural language Q&A, summarization, Clerk authentication, file uploads via AWS S3, and responsive UI built with Tailwind CSS.",
+      "href": "https://github.com/iamsanjeebandas/intellidoc-ai"
+    },
+    {
+      "name": "Apartmnt",
+      "framework": "MERN STACK",
+      "description": "A full-stack real estate listing platform with secure authentication (Firebase), dynamic UI using Tailwind CSS, and CRUD functionality for property listings including image uploads.",
+      "href": "https://github.com/iamsanjeebandas/apartmnt"
+    }
+  ]
 }
