@@ -21,7 +21,7 @@ const Header = (props) => {
 
         {/* Name and Headline */}
         <div className="w-full text-left">
-          <h1 className="text-5xl subpixel-antialiased tracking-wide">
+          <h1 className="text-4xl md:text-5xl sm:text-3xl font-semibold tracking-wide subpixel-antialiased text-white">
             {props.data.name}
           </h1>
 
