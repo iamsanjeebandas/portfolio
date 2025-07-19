@@ -20,7 +20,7 @@ const Header = (props) => {
             ease="power3.out" // Playful easing
             initialOpacity={0.5} // Start slightly faded
             animateOpacity={true} // Fade-in while sliding
-            scale={1.00} // Slight zoom-in during entrance
+            scale={1.0} // Slight zoom-in during entrance
             threshold={0.3} // Triggers when 30% visible
             delay={0.1} // Slight delay to pace the intro
           >
@@ -51,15 +51,14 @@ const Header = (props) => {
           </div>
 
           <a
-            href="/resume.pdf"
-            download
+            href="/SanjeebanDas_Official_Resume.pdf"
+            download="SanjeebanDas_Official_Resume.pdf"
             className="mt-4 inline-block px-2 py-1 text-xs font-medium text-white bg-primary-300 hover:bg-primary-400 rounded transition-colors duration-200"
           >
             📄 Download Resume
           </a>
         </div>
       </div>
-
       <Navigation />
       <Socials data={props.data.socials} />
     </div>
